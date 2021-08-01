@@ -25,7 +25,7 @@ async def addchannel(client, message):
 
     try:
         await USER.join_chat(invitelink)
-        await USER.send_message(message.chat.id, "   Jd hs Gr Fr lyg sc  Vc.")
+        await USER.send_message(message.chat.id, "I Jσιηεd Hεrε λs Yσυ Rεqυεsτεd...😴")
     except UserAlreadyParticipant:
         await message.reply_text(
             "<b>🧡 Hεlρεr Usεrβστ Alrεαdy Addεd Iη Υσυr Grσυρ.</b>",
@@ -33,7 +33,7 @@ async def addchannel(client, message):
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>"⚠ Flσσd Wαιτ Errσr ⚠ \nUsεr {user.first_name} Cουldη'τ Jσιη Υσur Chaηηεl Dυε τσ Ηεανy Rəqυεsτ  Fσr Usεrβστ ! Mακε Sυrε Usεr Is ηστ βαηηεd ıη Grσυρ."
+            f"<b>"⚠ Flσσd Wαιτ Errσr ⚠\nUsεr {user.first_name} Cουldη'τ Jσιη Υσur Chaηηεl Dυε τσ Ηεανy Rəqυεsτ  Fσr Usεrβστ ! Mακε Sυrε Usεr Is ηστ βαηηεd ıη Grσυρ."
                         "\n\nΟr Mαηυαlly Add @SankiRobot τσ Υσυr Grσυρ Αηd TrY Agαιη.</b>",
         )
         return
@@ -99,7 +99,7 @@ async def addcchannel(client, message):
 
     try:
         await USER.join_chat(invitelink)
-        await USER.send_message(message.chat.id, "I joined here as you requested")
+        await USER.send_message(message.chat.id, "I Jσιηεd Hεrε λs Yσυ Rεqυεsτεd...😴")
     except UserAlreadyParticipant:
         await message.reply_text(
             "<b>🧡 Hεlρεr Usεrβστ Alrεαdy Addεd Iη Υσυr Grσυρ.</b>",
@@ -108,7 +108,7 @@ async def addcchannel(client, message):
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>⚠ Flσσd Wαιτ Errσr ⚠ \nUsεr {user.first_name} Cουldη'τ Jσιη Υσur Chaηηεl Dυε τσ Ηεανy Rəqυεsτ  Fσr Usεrβστ ! Mακε Sυrε Usεr Is ηστ βαηηεd ıη Grσυρ."
+            f"<b>⚠ Flσσd Wαιτ Errσr ⚠\nUsεr {user.first_name} Cουldη'τ Jσιη Υσur Chaηηεl Dυε τσ Ηεανy Rəqυεsτ  Fσr Usεrβστ ! Mακε Sυrε Usεr Is ηστ βαηηεd ıη Grσυρ."
                         "\n\nΟr Mαηυαlly Add @SankiRobot τσ Υσυr Grσυρ Αηd TrY Agαιη.</b>",
         )
         return
