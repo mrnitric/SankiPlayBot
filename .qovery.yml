@@ -1,0 +1,11 @@
+---
+application:
+  name: "sankiplaybot"
+  project: "SankiPlayBot"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-sankiplaybot"
+  routes:
+  - application_name: "sankiplaybot"
+    paths:
+    - "/*"
